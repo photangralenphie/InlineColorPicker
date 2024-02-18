@@ -43,3 +43,6 @@ ContentView()
 
 ## Requirements
  - iOS 15+
+
+## Licence
+ - MIT License
