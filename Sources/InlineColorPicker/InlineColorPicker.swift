@@ -47,6 +47,19 @@ public struct InlineColorPicker: View {
             }
         }
         .padding(.vertical, 7)
+        .modifier(Feedback(colorIndex: colorIndex))
+    }
+}
+
+fileprivate struct Feedback: ViewModifier {
+    let colorIndex: Int
+    func body(content: Content) -> some View {
+        if #available(iOS 17.0, *) {
+            content
+                .sensoryFeedback(.selection, trigger: colorIndex)
+        } else {
+            content
+        }
     }
 }
 

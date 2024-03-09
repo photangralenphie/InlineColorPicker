@@ -43,6 +43,7 @@ ContentView()
 
 ## Requirements
  - iOS 15+
+ - iOS 17+ for SensoryFeedback
 
 ## Licence
  - MIT License
