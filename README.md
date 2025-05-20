@@ -1,3 +1,8 @@
+# This component has moved [here](https://github.com/photangralenphie/AwesomeSwiftyComponents/blob/main/Sources/AwesomeSwiftyComponents/InlineColorPicker.swift)
+with more options and better usablility.
+
+---
+
 # InlineColorPicker
 
  - Uses the official SwiftUI colors
